@@ -1,0 +1,87 @@
+site_name: MCUT
+site_url: 'https://cutdigital.github.io/mcut.site'
+repo_name: 'cutdigital/mcut'
+repo_url: 'https://github.com/cutdigital/mcut.git'
+edit_uri: '../mcut.github.io/edit/docs/docs/'
+site_description: "Simple C++ mesh cutting library"
+
+markdown_extensions:
+  - codehilite
+  - admonition
+  - attr_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.smarty
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.arithmatex
+  - pymdownx.emoji
+
+extra:
+  search:
+    tokenizer: '[\s\-\.::]+'
+
+# https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
+theme:
+  name: 'material'
+  palette:
+    primary: 'teal'
+    accent: 'red'
+  font:
+    text: 'Merriweather'
+    code: 'Inconsolata'
+  icon: 
+    logo: material/home
+
+extra_css:
+  - extras.css
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+google_analytics: ['UA-58346315-3', 'auto']
+
+markdown_extensions:
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - admonition
+  - toc:
+      permalink: true
+  - markdown.extensions.smarty
+  - markdown.extensions.toc:
+      permalink: true
+  - markdown.extensions.wikilinks:
+      base_url: https://github.com/cutdigital/mcut/tree/master
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      repo_url_shortener: true
+      user: cutdigital
+      repo: mcut
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+plugins:
+  - search
+
+nav:
+  - Home: 'index.md'
+  - Build: 'building.md' 
+  - Tutorial: 
+    - 'HelloWorld' : 'tutorials/helloWorld.md'
+    - 'Debugging' : 'tutorials/debugging.md'
+    - 'Meshes' : 'tutorials/meshes.md'
+  - Gallery: 'gallery.md'
+  - FAQ: 'faq.md'
+  - Licensing: 'license.md'
+
