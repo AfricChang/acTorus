@@ -1,7 +1,7 @@
-site_name: MCUT
-site_url: 'https://cutdigital.github.io/mcut.site'
+site_name: acTorus
+site_url: 'https://africchang.github.io/acTorus'
 repo_name: 'cutdigital/mcut'
-repo_url: 'https://github.com/cutdigital/mcut.git'
+repo_url: 'https://github.com/cutdigital/acTorus.git'
 edit_uri: '../mcut.github.io/edit/docs/docs/'
 site_description: "Simple C++ mesh cutting library"
 
