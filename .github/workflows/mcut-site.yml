@@ -1,4 +1,4 @@
-name: mcut-site
+name: acTorus
 on:
   push:
     branches:
