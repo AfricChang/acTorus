@@ -1,3 +1,0 @@
-# Connected components
-
-TODO

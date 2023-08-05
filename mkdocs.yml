@@ -1,9 +1,7 @@
-site_name: MCUT
-site_url: 'https://cutdigital.github.io/mcut.site'
-repo_name: 'cutdigital/mcut'
-repo_url: 'https://github.com/cutdigital/mcut.git'
+site_name: acTorus
+site_url: 'https://github.com/africchang/acTorus'
+repo_url: 'https://github.com/africchang/acTorus'
 edit_uri: '../mcut.github.io/edit/docs/docs/'
-site_description: "Simple C++ mesh cutting library"
 
 markdown_extensions:
   - codehilite
@@ -76,11 +74,3 @@ plugins:
 
 nav:
   - Home: 'index.md'
-  - Build: 'building.md' 
-  - Tutorial: 
-    - 'HelloWorld' : 'tutorials/helloWorld.md'
-    - 'Debugging' : 'tutorials/debugging.md'
-    - 'Meshes' : 'tutorials/meshes.md'
-  - Gallery: 'gallery.md'
-  - FAQ: 'faq.md'
-  - Licensing: 'license.md'
