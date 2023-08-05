@@ -2,7 +2,7 @@ name: acTorus
 on:
   push:
     branches:
-      - gh-pages
+      - main
 jobs:
   deploy:
     runs-on: ubuntu-latest
