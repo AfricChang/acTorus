@@ -74,3 +74,4 @@ plugins:
 
 nav:
   - Home: 'index.md'
+  - Licensing: 'license.md'
