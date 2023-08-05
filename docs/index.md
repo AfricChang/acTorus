@@ -9,7 +9,7 @@ This is a github pages test Project.
     - `curl https://bootstrap.pypa.io/get-pip.py | python`
     - `pip3 install --upgrade setuptools`
 * Install MkDocs theme called "Material"
-    - `sudo pip3 install mkdocs-material`
+    - `pip3 install mkdocs-material`
 
 ## Previewing the site
 
