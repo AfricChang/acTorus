@@ -1,8 +1,7 @@
-# MCUT project site
+# Description
 
-This is the repository for the [MCUT project page](https://cutdigital.github.io/mcut.github.io/)
+This is a github pages test Project.
 
-The actual MCUT repository can be found [here](https://github.com/cutdigital/mcut.git)
 
 ## Local setup for development 
 
